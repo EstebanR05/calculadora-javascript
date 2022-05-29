@@ -10,3 +10,7 @@ botonesNumeros.forEach(boton => {
     boton.addEventListener('click', () => display.agregarNumero(boton.innerHTML));
 });
 
+botonesOperadores.forEach(botones => {
+    boton.addEventListener('click', () => display.computar(boton.value))
+});
+
