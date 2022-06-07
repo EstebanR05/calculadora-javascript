@@ -15,6 +15,8 @@ class Display{
            }
     }
 
-    
+    agregarNumero(numeros){
+        this.valorActual = numeros;
+    }
 
 }
