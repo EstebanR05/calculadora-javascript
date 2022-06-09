@@ -18,5 +18,8 @@ class Display{
     agregarNumero(numeros){
         this.valorActual = numeros;
     }
-
+  
+    imprimirValores(){
+        this.displayValorActual.textConten = this.valorActual;
+    }
 }
